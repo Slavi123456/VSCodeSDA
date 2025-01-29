@@ -1,0 +1,31 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+   "version": "0.2.0",
+    "configurations": [
+        /*{
+            "name": "C++ Launch (MSVC)",
+            "type": "cppvsdbg",  // Use cppdbg for gdb/LLDB or cppvsdbg for MSVC
+            "request": "launch",
+            "program": "C:/Proekti/Uni/2kurs/СД/VSCodeSDA/main.exe",
+            "args": [],  // Command-line arguments for your program (if needed)
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "build",  // Refers to a task (like a compiler build task)
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "internalConsoleOptions": "openOnSessionStart"
+        }*/
+    ]
+}
