@@ -58,25 +58,25 @@ int main()
     set->clear();
     set->print();
 
-    //std::vector<std::vector<int>> graph = {
-    //    {1, 2, 7}, // 0 -> 1, 0 -> 2
-    //    {3},       // 1 -> 2
-    //    {4},       // 2 -> 3
-    //    {5},       // 3 -> 4
-    //    {3, 6, 7}, // 4 -> {}
-    //    {1},       // 5 -> 3
-    //    {},        // 5 -> 3
-    //    {},        // 5 -> 3
-    //};
-    //DfsTraversalCollection dfsGr(graph, 0);
+    // std::vector<std::vector<int>> graph = {
+    //     {1, 2, 7}, // 0 -> 1, 0 -> 2
+    //     {3},       // 1 -> 2
+    //     {4},       // 2 -> 3
+    //     {5},       // 3 -> 4
+    //     {3, 6, 7}, // 4 -> {}
+    //     {1},       // 5 -> 3
+    //     {},        // 5 -> 3
+    //     {},        // 5 -> 3
+    // };
+    // DfsTraversalCollection dfsGr(graph, 0);
     //// dfsGr.print();
-    //std::cout << dfsGr;
+    // std::cout << dfsGr;
     //// dfsGr.crossEdge();
     //// dfsGr.treeEdge();
     //// dfsGr.forwardEdge();
     //// dfsGr.backEdge();
-//
-    //DfsTraversalCollection dfsGr2(graph, 5);
-    //dfsGr2.print();
-    //std::cout << std::boolalpha << (dfsGr < dfsGr2) << std::endl;
+    //
+    // DfsTraversalCollection dfsGr2(graph, 5);
+    // dfsGr2.print();
+    // std::cout << std::boolalpha << (dfsGr < dfsGr2) << std::endl;
 }

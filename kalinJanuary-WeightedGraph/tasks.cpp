@@ -60,7 +60,7 @@ std::vector<std::string> allWords(WGraph &wgraph)
     return allWords;
 }
 
-int smallestCycle(WGraph &wGraph) //word that can be made by the smalles cycle //it is used map for saving the path 
+int smallestCycle(WGraph &wGraph) // word that can be made by the smalles cycle //it is used map for saving the path
 {
     std::vector<bool> traveled(wGraph.size(), false);
     int sizeCycle = 0;
@@ -100,7 +100,7 @@ int main()
     graph[4] = {};
 
     std::vector<std::string> result = allWords(graph);
-    //std::cout << smallestCycle(graph) << std::endl;
+    // std::cout << smallestCycle(graph) << std::endl;
     for (const std::string &word : result)
     {
         std::cout << word << "\n";

@@ -1,4 +1,4 @@
-/*#include <string>
+#include <string>
 
 class Expression
 {
@@ -80,4 +80,4 @@ public:
 
 private:
     std::vector<Token> _tokenize;
-}; */
+}; 
